@@ -1,0 +1,1 @@
+# xperia10iii_sailfishOS
