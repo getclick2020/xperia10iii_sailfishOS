@@ -1,0 +1,97 @@
+START
+== BASELINE
+T=1782394844 CN=37231 CA=36926 VA=4148687
+T=1782394849 CN=34484 CA=40588 VA=4145962
+ regulator                      use open bypass voltage current     min     max
+ regulator-dummy                  1   18      0     0mV     0mA     0mV     0mV 
+ pm6350_s1                        0    1      0  1000mV     0mA  1000mV  1200mV 
+ pm6350_s2                        0    1      0  1503mV     0mA  1503mV  2048mV 
+ pm6350_s3_level                  0    3      0     0mV     0mA     0mV     0mV 
+ pm6350_s5_level                  0    5      0     0mV     0mA     0mV     0mV 
+ pm6350_s5_level_ao               0    1      0     0mV     0mA     0mV     0mV 
+ pm6350_l1_level                  0    2      0     0mV     0mA     0mV     0mV 
+ pm6350_l2                        0    2      0  1503mV     0mA  1503mV  1980mV 
+ pm6350_l3                        0    3      0  2700mV     0mA  2700mV  3300mV 
+ pm6350_l4                        0    2      0   352mV     0mA   352mV   801mV 
+ pm6350_l5                        0    1      0  1503mV     0mA  1503mV  1980mV 
+ pm6350_l6                        1    2      0  3000mV     0mA  1710mV  3544mV 
+ pm6350_l7                        0    2      0  1620mV     0mA  1620mV  1980mV 
+ pm6350_l8                        0    1      0  2500mV     0mA  2500mV  3544mV 
+ pm6350_l9                        0    1      0  1650mV     0mA  1650mV  3401mV 
+ pm6350_l11                       2    3      0  1800mV     0mA  1800mV  2000mV 
+ pm6350_l12                       1    2      0  1800mV     0mA  1620mV  1980mV 
+ pm6350_l13                       0    1      0   570mV     0mA   570mV   650mV 
+ pm6350_l14                       0    2      0  1800mV     0mA  1700mV  1900mV 
+ pm6350_l15                       0    1      0  1100mV     0mA  1100mV  1305mV 
+ pm6350_l16                       0    3      0   880mV     0mA   830mV   921mV 
+ pm6350_l17_level                 0    2      0     0mV     0mA     0mV     0mV 
+ pm6350_l18                       1    7      0   800mV     0mA   788mV  1049mV 
+ pm6350_l19                       0    1      0  1080mV     0mA  1080mV  1305mV 
+ pm6350_l20                       0    1      0   530mV     0mA   530mV   801mV 
+ pm6350_l21                       0    1      0   751mV     0mA   751mV   825mV 
+ pm6350_l22                       2   11      0  1200mV     0mA  1080mV  1305mV 
+ pm6150a_s1_level                 1   12      0     0mV     0mA     0mV     0mV 
+ pm6150a_s1_level_ao              1    2      0     0mV     0mA     0mV     0mV 
+ pm6150a_s6_level                 0    2      0     0mV     0mA     0mV     0mV 
+ pm6150a_s8                       0    1      0   313mV     0mA   313mV  1395mV 
+ pm6150a_l1                       0    2      0  1800mV     0mA  1620mV  1980mV 
+ pm6150a_l2                       0    2      0  1170mV     0mA  1170mV  1305mV 
+ pm6150a_l3                       0    1      0  1100mV     0mA  1100mV  1299mV 
+ pm6150a_l4                       0    1      0  1620mV     0mA  1620mV  3300mV 
+ pm6150a_l5                       0    1      0  1620mV     0mA  1620mV  3300mV 
+ pm6150a_l6                       0    2      0  1700mV     0mA  1700mV  3544mV 
+ pm6150a_l7                       1    2      0  2950mV     0mA  2700mV  3544mV 
+ pm6150a_l8                       0    1      0  1620mV     0mA  1620mV  2000mV 
+ pm6150a_l9                       0    2      0  2700mV     0mA  2700mV  3544mV 
+ pm6150a_l10                      0    2      0  3000mV     0mA  3000mV  3401mV 
+ pm6150a_l11                      0    2      0  3000mV     0mA  3000mV  3401mV 
+ pm6150a_bob                      1    2      0  3296mV     0mA  1620mV  5492mV 
+ pm6150a_bob_ao                   0    1      0  1620mV     0mA  1620mV  5492mV 
+ oledb                            0    1      0     0mV     0mA  4925mV  8100mV 
+ ab                               1    2      0     0mV     0mA  4600mV  6100mV 
+ ibb                              1    2      0     0mV     0mA   800mV  5400mV 
+ refgen                           0    7      0     0mV     0mA     0mV     0mV 
+ gcc_ufs_phy_gdsc                 1    2      0     0mV     0mA     0mV     0mV 
+ gcc_usb30_prim_gdsc              0    2      0     0mV     0mA     0mV     0mV 
+ hlos1_vote_mmnoc_mmu_tbu_hf0_gdsc   0    2      0     0mV     0mA     0mV     0mV 
+ hlos1_vote_mmnoc_mmu_tbu_sf_gdsc   0    2      0     0mV     0mA     0mV     0mV 
+ cam_cc_bps_gdsc                  0    2      0     0mV     0mA     0mV     0mV 
+ cam_cc_ife_0_gdsc                0    3      0     0mV     0mA     0mV     0mV 
+ cam_cc_ife_1_gdsc                0    3      0     0mV     0mA     0mV     0mV 
+ cam_cc_ife_2_gdsc                0    3      0     0mV     0mA     0mV     0mV 
+ cam_cc_ipe_0_gdsc                0    2      0     0mV     0mA     0mV     0mV 
+ cam_cc_titan_top_gdsc            0   21      0     0mV     0mA     0mV     0mV 
+ mdss_core_gdsc                   0    2      0     0mV     0mA     0mV     0mV 
+ npu_cc_core_gdsc                 0    2      0     0mV     0mA     0mV     0mV 
+ video_cc_mvs0_gdsc               0    2      0     0mV     0mA     0mV     0mV 
+ video_cc_mvsc_gdsc               0    3      0     0mV     0mA     0mV     0mV 
+ fpc_vana_fixed_reg_87            0    2      0  1800mV     0mA  1800mV  1800mV 
+ wl2864c-reg                      0    5      0     0mV     0mA     0mV     0mV 
+ qusb@88e3000                     0    3      0     0mV     0mA     0mV     0mV 
+ smb5-vbus                        0    1      0     0mV     0mA     0mV     0mV 
+ smb5-vconn                       0    1      0     0mV     0mA     0mV     0mV 
+== OFF c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ibb
+T=1782394869 CN=32043 CA=39367 VA=4144794
+T=1782394874 CN=33264 CA=36621 VA=4143627
+enable=0
+== OFF c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ab
+T=1782394894 CN=36315 CA=37536 VA=4142653
+T=1782394899 CN=36010 CA=35400 VA=4141875
+enable=0
+== OFF 18200000.rsc:rpmh-regulator-bobe1-pm6150a_bob
+T=1782394919 CN=32959 CA=38147 VA=4140902
+T=1782394924 CN=34790 CA=36926 VA=4140512
+enable=0
+== OFF 18200000.rsc:rpmh-regulator-ldoa6-pm6350_l6
+T=1782394944 CN=31433 CA=35705 VA=4139734
+T=1782394949 CN=33264 CA=38147 VA=4139345
+enable=0
+== OFF 18200000.rsc:rpmh-regulator-ldoa11-pm6350_l11
+T=1782394969 CN=34484 CA=35095 VA=4138955
+T=1782394974 CN=33569 CA=35095 VA=4138955
+enable=0
+== OFF 18200000.rsc:rpmh-regulator-ldoa16-pm6350_l16
+T=1782394994 CN=35705 CA=37536 VA=4138177
+T=1782394999 CN=35095 CA=37536 VA=4138177
+enable=0
+DONE

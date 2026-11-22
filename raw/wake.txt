@@ -1,0 +1,170 @@
+== pm_debug:
+1
+== wakeup_irq:
+347
+== stats:
+/sys/power/suspend_stats/fail:2017
+/sys/power/suspend_stats/failed_freeze:1327
+/sys/power/suspend_stats/failed_prepare:0
+/sys/power/suspend_stats/failed_resume:0
+/sys/power/suspend_stats/failed_resume_early:0
+/sys/power/suspend_stats/failed_resume_noirq:0
+/sys/power/suspend_stats/failed_suspend:690
+/sys/power/suspend_stats/failed_suspend_late:0
+/sys/power/suspend_stats/failed_suspend_noirq:0
+/sys/power/suspend_stats/last_failed_errno:-16
+/sys/power/suspend_stats/last_failed_step:freeze
+/sys/power/suspend_stats/success:708
+== wake_lock:
+mce_inactivity_notify usb_moded_state 
+== dmesg:
+[ 3268.120760] resume cycles:     859339557724
+[ 3268.121128] Enabling non-boot CPUs ...
+[ 3268.124277] Detected VIPT I-cache on CPU1
+[ 3268.124341] arch_timer: CPU1: Trapping CNTVCT access
+[ 3268.124352] CPU1: Booted secondary processor 0x0000000100 [0x51df805e]
+[ 3268.125264] CPU1 is up
+[ 3268.127863] Detected VIPT I-cache on CPU2
+[ 3268.127923] arch_timer: CPU2: Trapping CNTVCT access
+[ 3268.127934] CPU2: Booted secondary processor 0x0000000200 [0x51df805e]
+[ 3268.128734] CPU2 is up
+[ 3268.131371] Detected VIPT I-cache on CPU3
+[ 3268.131435] arch_timer: CPU3: Trapping CNTVCT access
+[ 3268.131445] CPU3: Booted secondary processor 0x0000000300 [0x51df805e]
+[ 3268.132222] CPU3 is up
+[ 3268.135025] Detected VIPT I-cache on CPU4
+[ 3268.135090] arch_timer: CPU4: Trapping CNTVCT access
+[ 3268.135101] CPU4: Booted secondary processor 0x0000000400 [0x51df805e]
+[ 3268.135862] CPU4 is up
+[ 3268.138620] Detected VIPT I-cache on CPU5
+[ 3268.138688] arch_timer: CPU5: Trapping CNTVCT access
+[ 3268.138698] CPU5: Booted secondary processor 0x0000000500 [0x51df805e]
+[ 3268.139514] CPU5 is up
+[ 3268.143225] Detected PIPT I-cache on CPU6
+[ 3268.143276] arch_timer: CPU6: Trapping CNTVCT access
+[ 3268.143282] CPU6: Booted secondary processor 0x0000000600 [0x411fd0d0]
+[ 3268.143710] CPU6 is up
+[ 3268.144711] Detected PIPT I-cache on CPU7
+[ 3268.144759] arch_timer: CPU7: Trapping CNTVCT access
+[ 3268.144765] CPU7: Booted secondary processor 0x0000000700 [0x411fd0d0]
+[ 3268.145147] CPU7 is up
+[ 3268.146128] PM: noirq resume of devices complete after 0.920 msecs
+[ 3268.146898] pm7250b_charger: usbin_uv_irq_handler: IRQ: usbin-uv
+[ 3268.148407] PM: early resume of devices complete after 1.181 msecs
+[ 3268.149286] pm7250b_charger: smblib_usb_plugin_locked: IRQ: usbin-plugin attached
+[ 3268.152215] QG-K: get_batt_id_ohm: batt_id_mv=243, batt_id_ohm=15000
+[ 3268.154302] no screen_state.
+[ 3268.154383] no screen_state.
+[ 3268.155288] [kworke][0xc814ab28a5][05:36:42.082146] wlan: [33584:I:HDD] wlan_hdd_bus_resume: 1280: starting bus resume
+[ 3268.176559] ufshcd-qcom 1d84000.ufshc: ufshcd_print_pwr_info:[RX, TX]: gear=[1, 1], lane[1, 1], pwr[SLOWAUTO_MODE, SLOWAUTO_MODE], rate = 0
+[ 3268.187474] ufshcd-qcom 1d84000.ufshc: ufs_fixup_device_setup : vid=01ce, model=KM2V8001CM-B707, spec ver=0210 , fw ver=1600
+[ 3268.191825] ufshcd-qcom 1d84000.ufshc: ufshcd_print_pwr_info:[RX, TX]: gear=[3, 3], lane[2, 2], pwr[FAST MODE, FAST MODE], rate = 2
+[ 3268.191986] sec_ts 1-0048: [sec_input] sec_ts_pm_resume:enter
+[ 3268.192583] PM: resume of devices complete after 44.171 msecs
+[ 3268.193190] PM: Finishing wakeup.
+[ 3268.193192] OOM killer enabled.
+[ 3268.193193] Restarting tasks ... 
+[ 3268.193286] i2c_pmic 2-0009: ignoring dependency for device, assuming no driver
+[ 3268.197332] done.
+[ 3268.199943] PM: suspend exit
+[ 3268.219519] pm7250b_charger: typec_state_change_irq_handler: typec_state_change_irq_handler in gpio84 set 0
+[ 3268.219540] pm7250b_charger: typec_attach_detach_irq_handler: IRQ: typec-attach-detach
+[ 3268.219596] pm7250b_charger: typec_state_change_irq_handler: IRQ: cc-state-change; Type-C SOURCE_DEFAULT detected
+[ 3268.222627] QG-K: get_batt_id_ohm: batt_id_mv=241, batt_id_ohm=15000
+[ 3268.228087] QG-K: get_batt_id_ohm: batt_id_mv=242, batt_id_ohm=15000
+[ 3268.663294] pm7250b_charger: usb_source_change_irq_handler: APSD_STATUS = 0x01
+[ 3268.663385] pm7250b_charger: smblib_handle_apsd_done: IRQ: apsd-done rising; SDP detected
+[ 3268.663388] pm7250b_charger: smblib_handle_hvdcp_detect_done: IRQ: hvdcp-detect-done falling
+[ 3268.663390] pm7250b_charger: smblib_handle_hvdcp_check_timeout: IRQ: smblib_handle_hvdcp_check_timeout falling
+[ 3268.663392] pm7250b_charger: smblib_handle_sdp_enumeration_done: IRQ: sdp-enumeration-done falling
+[ 3268.663394] pm7250b_charger: smblib_handle_slow_plugin_timeout: IRQ: slow-plugin-timeout falling
+[ 3268.663410] pm7250b_charger: usb_source_change_irq_handler: APSD_STATUS = 0x01
+[ 3268.666648] QG-K: get_batt_id_ohm: batt_id_mv=242, batt_id_ohm=15000
+[ 3268.667213] msm-usb-ssphy-qmp 88e8000.ssphy: USB DP QMP PHY: Update TYPEC CTRL(2)
+[ 3268.668256] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[ 3268.872755] msm-dwc3 a600000.ssusb: Avail curr from USB = 100
+[ 3268.872919] pm7250b_charger: smblib_set_icl_current: set ICL to 50000uA
+[ 3268.873898] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3268.874947] [drm:dsi_display_set_mode] [msm-dsi-info]: mdp_transfer_time_us=15666 us
+[ 3268.874979] [drm:dsi_display_set_mode] [msm-dsi-info]: hactive= 1080,vactive= 2520,fps=60
+[ 3268.875036] [drm:dsi_ctrl_isr_configure] [msm-dsi-info]: dsi-ctrl-0: IRQ 385 registered
+[ 3268.877484] QG-K: get_batt_id_ohm: batt_id_mv=242, batt_id_ohm=15000
+[ 3268.886536] dsi_panel_driver_touch_pinctrl_set_state: invalid 'somc_ts_int_active' pinstate
+[ 3268.888454] @@@@ panel power on @@@@
+[ 3268.935024] somc_panel_color_manager: somc_panel_inject_crtc_overrides (786): Override: Already have original funcs! Is setup called twice??
+[ 3268.935055] somc_panel_color_manager: somc_panel_pcc_setup (884): Cannot read uv data: missing command
+[ 3268.935069] somc_panel_color_manager: somc_panel_pcc_setup (888): u,v is flashed 0.
+[ 3268.935083] somc_panel_color_manager: somc_panel_colormgr_apply_calibrations: Couldn't apply PCC calibration
+[ 3268.935113] somc_panel_color_manager: somc_panel_colormgr_apply_calibrations: Cannot send HSIC calibration
+[ 3268.942009] (NULL device *): deviceless supply vdd not found, using dummy regulator
+[ 3268.942167] (NULL device *): deviceless supply avdd not found, using dummy regulator
+[ 3268.949851] dsi_panel_driver_oled_short_det_handler: VREG_NG interrupt!
+[ 3268.960827] android_work: sent uevent USB_STATE=CONNECTED
+[ 3269.019842] configfs-gadget gadget: high-speed config #1: b
+[ 3269.023016] msm-dwc3 a600000.ssusb: Avail curr from USB = 500
+[ 3269.023215] pm7250b_charger: smblib_set_icl_current: set ICL to 500000uA
+[ 3269.023513] android_work: sent uevent USB_STATE=CONFIGURED
+[ 3269.136947] sd 0:0:0:0: Power-on or device reset occurred
+[ 3269.522242] pm7250b_charger: chg_state_change_irq_handler: IRQ: chg-state-change
+[ 3269.525857] QG-K: get_batt_id_ohm: batt_id_mv=244, batt_id_ohm=15000
+[ 3269.529422] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795
+[ 3269.688574] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3269.689663] pm7250b_charger: smblib_icl_change_work: icl_settled=500000
+[ 3271.668123] sd 0:0:0:1: Power-on or device reset occurred
+[ 3271.668170] sd 0:0:0:2: Power-on or device reset occurred
+[ 3274.165748] QG-K: get_batt_id_ohm: batt_id_mv=245, batt_id_ohm=15000
+[ 3274.166937] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795
+[ 3274.187954] dwc3 a600000.dwc3: ep1out: can't queue to disabled endpoint
+[ 3274.189450] msm-dwc3 a600000.ssusb: ep [gsi-epin1,29] already configured as msm endpoint
+[ 3274.189479] msm-dwc3 a600000.ssusb: ep [gsi-epout1,30] already configured as msm endpoint
+[ 3274.194120] RNDIS_IPA NetDev was initialized
+[ 3274.195806] RNDIS_IPA NetDev was opened
+[ 3274.195990] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+[ 3274.295125] android_work: sent uevent USB_STATE=DISCONNECTED
+[ 3274.299451] RNDIS_IPA NetDev queue is stopped
+[ 3274.311690] RNDIS_IPA NetDev was opened
+[ 3274.312843] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+[ 3274.399815] msm-dwc3 a600000.ssusb: Avail curr from USB = 2
+[ 3274.402587] pm7250b_charger: chg_state_change_irq_handler: IRQ: chg-state-change
+[ 3274.406290] QG-K: get_batt_id_ohm: batt_id_mv=242, batt_id_ohm=15000
+[ 3274.495050] msm-dwc3 a600000.ssusb: Avail curr from USB = 100
+[ 3274.495221] pm7250b_charger: smblib_set_icl_current: set ICL to 50000uA
+[ 3274.495274] android_work: did not send uevent (0 0 0000000000000000)
+[ 3274.496289] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3274.583090] android_work: sent uevent USB_STATE=CONNECTED
+[ 3274.636478] configfs-gadget gadget: high-speed config #1: b
+[ 3274.636551] msm-dwc3 a600000.ssusb: Avail curr from USB = 500
+[ 3274.636707] pm7250b_charger: smblib_set_icl_current: set ICL to 500000uA
+[ 3274.636876] android_work: sent uevent USB_STATE=CONFIGURED
+[ 3274.699460] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+[ 3274.704452] ipa_usb_notify_cb: Set net_ready_trigger
+[ 3274.704456] RNDIS_IPA NetDev pipes were connected
+[ 3275.130688] pm7250b_charger: chg_state_change_irq_handler: IRQ: chg-state-change
+[ 3275.134452] QG-K: get_batt_id_ohm: batt_id_mv=244, batt_id_ohm=15000
+[ 3275.136682] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795
+[ 3275.330225] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3275.330247] pm7250b_charger: smblib_icl_change_work: icl_settled=500000
+[ 3279.284351] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3279.286485] QG-K: get_batt_id_ohm: batt_id_mv=245, batt_id_ohm=15000
+[ 3279.289398] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795
+[ 3287.513611] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3287.519301] QG-K: get_batt_id_ohm: batt_id_mv=247, batt_id_ohm=15000
+[ 3287.520538] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795
+[ 3289.524393] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.707744] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.711892] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.711909] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.711924] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.711938] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.712011] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.712030] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.712045] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.720442] qcom_rpmh DRV:apps_rsc TCS Busy, retrying RPMH message send: addr=0x30010
+[ 3290.826591] (NULL device *): deviceless supply vdd not found, using dummy regulator
+[ 3290.826760] (NULL device *): deviceless supply avdd not found, using dummy regulator
+[ 3290.830890] Entering OFF state from 0
+[ 3290.830894] AOD mode OFF
+[ 3291.043897] @@@@ panel power off @@@@
+[ 3300.614113] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[ 3300.620146] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[ 3300.623536] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:5795

@@ -1,0 +1,20 @@
+1782306326
+189298.52 136216.87
+/sys/class/power_supply/battery/charge_counter:2429400
+/sys/class/power_supply/battery/charge_full:4049000
+/sys/class/power_supply/battery/capacity:69
+c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ibb enable=0
+c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ab enable=0
+18200000.rsc:rpmh-regulator-bobe1-pm6150a_bob enable=0
+18200000.rsc:rpmh-regulator-ldoa6-pm6350_l6 enable=0
+---
+1782335129
+218101.42 366547.16
+/sys/class/power_supply/battery/charge_counter:2105480
+/sys/class/power_supply/battery/charge_full:4049000
+/sys/class/power_supply/battery/capacity:61
+c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ibb enable=0
+c440000.qcom,spmi:qcom,pm6150l@5:qcom,amoled-ab enable=0
+18200000.rsc:rpmh-regulator-bobe1-pm6150a_bob enable=0
+18200000.rsc:rpmh-regulator-ldoa6-pm6350_l6 enable=0
+---

@@ -1,0 +1,5 @@
+ pm6350_l6                        1    2      0  3000mV     0mA  1710mV  3544mV 
+ pm6150a_bob                      1    2      0  3296mV     0mA  1620mV  5492mV 
+ oledb                            0    1      0     0mV     0mA  4925mV  8100mV 
+ ab                               1    2      0     0mV     0mA  4600mV  6100mV 
+ ibb                              1    2      0     0mV     0mA   800mV  5400mV 

@@ -1,0 +1,29 @@
+session: inactive
+/home/defaultuser/dsi.sh: line 5: can't create /sys/bus/platform/drivers/msm-dsi-display/unbind: Permission denied
+unbind exit: 1
+../../../../bus/platform/drivers/msm-dsi-display
+ pm6350_l6                        1    2      0  3000mV     0mA  1710mV  3544mV 
+ pm6150a_bob                      1    2      0  3296mV     0mA  1620mV  5492mV 
+ oledb                            0    1      0     0mV     0mA  4925mV  8100mV 
+ ab                               1    2      0     0mV     0mA  4600mV  6100mV 
+ ibb                              1    2      0     0mV     0mA   800mV  5400mV 
+[11946.530400] [aw882xx_smartpa]aw882xx_smartpa_cfg: flag = 0, power status = 2
+[11946.530403] [aw882xx_smartpa]aw882xx_monitor_stop: enter
+[11946.531084] [aw882xx_smartpa]aw882xx_stop: get_sysint=0x0000
+[11946.650331] afe_close: port_id = 0x1000
+[11946.656793] [aw882xx_smartpa]aw882xx_mute: mute state=1
+[11946.657051] afe_close: port_id = 0x1001
+[11946.680320] event_handler: reclaimed all bufs
+[11946.684695] afe_close: port_id = 0xb037
+[11951.694446] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[11951.700246] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[11951.703145] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:4436
+[11954.314368] pm7250b_charger: usb_source_change_irq_handler: APSD_STATUS = 0x11
+[11954.314444] pm7250b_charger: smblib_handle_apsd_done: IRQ: apsd-done rising; SDP detected
+[11954.314446] pm7250b_charger: smblib_handle_hvdcp_detect_done: IRQ: hvdcp-detect-done falling
+[11954.314449] pm7250b_charger: smblib_handle_hvdcp_check_timeout: IRQ: smblib_handle_hvdcp_check_timeout falling
+[11954.314451] pm7250b_charger: smblib_handle_sdp_enumeration_done: IRQ: sdp-enumeration-done rising
+[11954.314453] pm7250b_charger: smblib_handle_slow_plugin_timeout: IRQ: slow-plugin-timeout falling
+[11954.314484] pm7250b_charger: usb_source_change_irq_handler: APSD_STATUS = 0x11
+[11954.320074] QG-K: get_batt_id_ohm: batt_id_mv=247, batt_id_ohm=15000
+[11954.323014] ALG: cap_learning_update: [SOMC CL][OFF] charge_status:1 bsoc_cp:4436

@@ -1,0 +1,25 @@
+ pm6350_l6                        1    2      0  3000mV     0mA  1710mV  3544mV 
+ pm6150a_bob                      1    2      0  3296mV     0mA  1620mV  5492mV 
+ oledb                            0    1      0     0mV     0mA  4925mV  8100mV 
+ ab                               1    2      0     0mV     0mA  4600mV  6100mV 
+ ibb                              1    2      0     0mV     0mA   800mV  5400mV 
+[13423.906357] ALG: cap_learning_update: [SOMC CL]max bsoc/ccsoc updated. bsoc_cp:4913 ccsoc:3831
+[13433.738301] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13433.742047] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13433.743212] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4913 batt_soc_cp_drop:0 cc_soc_drop:0 hold_time:9837 total_time:6962142 (cc_soc:1424->3831)
+[13446.838383] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13446.842221] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13446.844532] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4913 batt_soc_cp_drop:0 cc_soc_drop:0 hold_time:22938 total_time:6975243 (cc_soc:1424->3831)
+[13459.940133] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13459.956659] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13459.960340] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4913 batt_soc_cp_drop:0 cc_soc_drop:0 hold_time:36054 total_time:6988359 (cc_soc:1424->3831)
+[13473.041713] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13473.047755] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13473.051023] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4913 batt_soc_cp_drop:0 cc_soc_drop:0 hold_time:49145 total_time:7001450 (cc_soc:1424->3831)
+[13486.143202] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13486.147786] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13486.150211] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4913 batt_soc_cp_drop:0 cc_soc_drop:0 hold_time:62244 total_time:7014549 (cc_soc:1424->3831)
+[13499.243719] pm7250b_charger: somc_aicl_irq_handler: IRQ: aicl-done
+[13499.249700] QG-K: get_batt_id_ohm: batt_id_mv=246, batt_id_ohm=15000
+[13499.253586] ALG: cap_learning_update: [SOMC CL][LERANING] charge_status:1 msoc:52 bsoc_cp:4941 batt_soc_cp_drop:-28 cc_soc_drop:-24 hold_time:75348 total_time:7027653 (cc_soc:1424->3855)
+[13499.253592] ALG: cap_learning_update: [SOMC CL]max bsoc/ccsoc updated. bsoc_cp:4941 ccsoc:3855
